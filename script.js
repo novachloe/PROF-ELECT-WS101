@@ -1,9 +1,9 @@
 function light(sw) {
     var pic;
     if (sw == 0) {
-      pic = "img/pic_off.gif"
+      pic = "img/off.gif"
     } else {
-      pic = "img/pic_on.gif"
+      pic = "img/on.gif"
     }
     document.getElementById('myImage').src = pic;
   }
